@@ -1,0 +1,55 @@
+
+.container{
+    width: 30%;
+    max-height: 80vh;
+    overflow: auto;
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(197, 193, 193),-1px -1px 5px rgb(183, 172, 172);
+}
+.btn{
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: pink;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    transition: 0.2s linear;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(210, 161, 169);
+}
+
+/* ----------------- Media Query ---------------- */
+@media screen and (max-width:1060px){
+    .container{
+        width: 45%;
+    }
+}
+@media screen and (max-width:675px) {
+    .container {
+        width: 60%;
+    }
+}
+@media screen and (max-width:445px) {
+    .container {
+        width: 90%;
+    }
+}
+@media screen and (max-width:315px) {
+    .container {
+        width: 100%;
+    }
+}
